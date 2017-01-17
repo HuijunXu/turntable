@@ -1,0 +1,25 @@
+[{
+      "name": "奖品A",
+      "count": 1,
+      "icon": "macbook-air2.png"
+  },
+     {
+      "name": "奖品B",
+      "count": 1,
+      "icon": "iphone2.png"
+  },
+    {
+      "name": "奖品C",
+      "count": 1,
+      "icon": ""
+  },
+  {
+      "name": "奖品D",
+      "count": 1,
+      "icon": "mavic2.png"
+  },
+  {
+      "name": "奖品E",
+      "count": 1,
+      "icon": ""
+}]

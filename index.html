@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--
+    width=device-width ：表示宽度是设备屏幕的宽度
+    initial-scale=1.0：表示初始的缩放比例
+    minimum-scale=0.5：表示最小的缩放比例
+    maximum-scale=2.0：表示最大的缩放比例
+    -->
+    <meta content="width=device-width,height=device-height, initial-scale=1.0">
+
+    <title>抽奖转盘</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+    <div class="content">
+        <div class="wheel">
+            <canvas class="item" id="wheelCanvas" width="800px" height="800px"></canvas>
+            <img class="pointer" src="images/wheel-pointer.png"/>
+        </div>
+    </div>
+    <div class="tips" >
+        <span id="tip"></span>
+    </div>
+    <div  class='infor'>
+     
+       <table id="info"></table>
+        </div>
+</body>
+</html>
